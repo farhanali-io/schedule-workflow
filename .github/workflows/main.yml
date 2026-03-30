@@ -2,12 +2,13 @@ name: Farhan Ali
 
 on:
   schedule:
-    - cron: "9 20 * * *"
+    - cron: "15 20 * * *"
+  workflow_dispatch:
 
 jobs:
   scheduling-workflow:
-   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-   steps:
-    - name: Schedule
-      run: echo "Scheduled Github Actions Workflow"
+    steps:
+      - name: Schedule
+        run: echo "Scheduled Github Actions Workflow"
