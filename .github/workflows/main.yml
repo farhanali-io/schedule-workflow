@@ -2,7 +2,7 @@ name: Farhan Ali
 
 on:
   schedule:
-    - cron: "55 12 * * *"
+    - cron: "0 6 * * *"
 
 jobs:
   scheduling-workflow:
