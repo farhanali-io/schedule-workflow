@@ -1,0 +1,13 @@
+name: Farhan Ali
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  scheduling-workflow:
+   runs-on: ubuntu-latest
+
+   steps:
+    - name: Schedule
+      run: echo "Scheduled Github Actions Workflow"
